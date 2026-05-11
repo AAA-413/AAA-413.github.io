@@ -20,7 +20,8 @@ const quickPrompts = ["介绍面试 Agent", "你的 RAG 能力", "打开 GitHub"
 const initialMessage: ChatMessage = {
   id: 1,
   role: "bot",
-  text: "你好，我是辛庆宇的简历助手。你可以问我项目经历、技术栈、实习经历，也可以让我打开 GitHub、项目区或简历 PDF。",
+  text:
+    "你好呀，我是辛庆宇的专属简历机器人。先悄悄说明一下：我没有接入外部大模型 API，是一个纯前端意图识别小助手，所以回答会围绕页面里的项目和简历信息展开。我可以帮你介绍项目、梳理技术栈、查看实习经历，也可以一键打开 GitHub、项目区和简历 PDF。",
   actions: [
     { label: "查看项目", type: "scroll", target: "#projects" },
     { label: "打开简历", type: "link", target: profile.resumeUrl },
