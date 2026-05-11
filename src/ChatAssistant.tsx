@@ -151,6 +151,7 @@ function RobotMascot() {
       <div className="robot-head">
         <span className="robot-eye left" />
         <span className="robot-eye right" />
+        <span className="robot-mouth" />
       </div>
       <div className="robot-body">
         <Bot size={22} />
