@@ -21,7 +21,7 @@ export const profile = {
   github: "https://github.com/AAA-413",
   resumeUrl: "/resume-xinqingyu-ai.pdf",
   summary:
-    "聚焦 Agent、RAG、MCP 与后端工程落地，具备 Java/Spring 生态、FastAPI/React 全栈实践，以及向量检索、多智能体编排和异步任务流水线经验。",
+    "聚焦 Agent、RAG、MCP 与后端工程落地，具备 Java/Spring 生态、FastAPI/React 全栈实践，以及知识检索、多智能体协作和高并发秒杀任务经验。",
   highlights: ["Agent 编排", "RAG 检索增强", "Spring AI", "FastAPI + React", "pgvector", "Redis Streams"],
 };
 
@@ -136,7 +136,7 @@ export const timeline = [
     title: "杭州电子科技大学 · 电子信息工程",
     period: "2024.09 - 2027.06",
     icon: GraduationCap,
-    content: "围绕 AI 应用开发、大模型落地、后端系统与工程化能力持续实践。",
+    content: "围绕 AI 应用开发、大模型垂直领域落地、后端系统与工程化能力持续实践。",
   },
   {
     type: "本科",
