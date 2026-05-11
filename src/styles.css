@@ -639,8 +639,8 @@ h2 {
 .robot-eye {
   position: absolute;
   top: 17px;
-  width: 13px;
-  height: 18px;
+  width: 15px;
+  height: 19px;
   border: 2px solid rgba(221, 255, 248, 0.95);
   border-radius: 999px;
   background: linear-gradient(180deg, #f8fffd, #9ff7ff);
@@ -649,33 +649,24 @@ h2 {
 
 .robot-eye::after {
   position: absolute;
-  left: 3px;
-  top: 4px;
-  width: 5px;
-  height: 8px;
+  left: 50%;
+  top: 50%;
+  width: 6px;
+  height: 9px;
   border-radius: 999px;
   background:
     radial-gradient(circle at 38% 25%, #ffffff 0 1px, transparent 2px),
     #123238;
   content: "";
+  transform: translate(-50%, -50%);
 }
 
 .robot-eye.left {
-  left: 15px;
+  left: 16px;
 }
 
 .robot-eye.right {
-  right: 15px;
-}
-
-.robot-mouth {
-  position: absolute;
-  left: 33px;
-  top: 42px;
-  width: 10px;
-  height: 5px;
-  border-radius: 0 0 999px 999px;
-  border-bottom: 3px solid rgba(221, 255, 248, 0.94);
+  right: 16px;
 }
 
 .robot-body {
