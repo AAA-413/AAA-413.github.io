@@ -1,5 +1,6 @@
 import { ArrowUpRight, Download, Github, Mail, MapPin, Menu, X } from "lucide-react";
 import { useState } from "react";
+import ChatAssistant from "./ChatAssistant";
 import { contactLinks, navItems, profile, projects, skillGroups, stats, timeline } from "./data";
 
 function App() {
@@ -219,6 +220,8 @@ function App() {
           })}
         </div>
       </section>
+
+      <ChatAssistant />
     </main>
   );
 }
