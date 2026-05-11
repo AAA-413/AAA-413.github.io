@@ -187,6 +187,17 @@ export default function ChatAssistant() {
     ask(input);
   }
 
+  function togglePanel() {
+    setOpen((current) => {
+      if (!current) {
+        setMessages([initialMessage]);
+        setInput("");
+      }
+
+      return !current;
+    });
+  }
+
   return (
     <div className="chat-assistant">
       {open && (
@@ -241,7 +252,7 @@ export default function ChatAssistant() {
         </section>
       )}
 
-      <button className="chat-launcher" type="button" onClick={() => setOpen((value) => !value)} aria-label="打开简历助手">
+      <button className="chat-launcher" type="button" onClick={togglePanel} aria-label="打开简历助手">
         <RobotMascot />
         <span>
           <MessageCircle size={16} />
